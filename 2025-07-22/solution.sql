@@ -39,3 +39,17 @@ SELECT ABS(
     WHERE department_id = (SELECT id FROM db_dept WHERE department = 'marketing')))
 as salary_difference;
 -- Result: Passed
+
+-- Improved submission:
+SELECT ABS(
+    MAX(CASE WHEN d.department = 'engineering' THEN e.salary END) -
+    MAX(CASE WHEN d.department = 'marketing' THEN e.salary END)
+) AS salary_difference
+FROM db_employee e
+JOIN db_dept d ON e.department_id = d.id
+WHERE d.department IN ('engineering','marketing')
+
+-- Improvements:
+-- JOIN statement avoids the department_id subquery traversing db_dept multiple times
+-- WHERE IN statement reduces data traversed
+-- Conditional aggregation reduces data collected prior to MAX operation by operating within a single SELECT query
