@@ -1,6 +1,6 @@
 # SQL Daily Practice
 
-This repository contains my daily SQL problem-solving exercises and notes.
+This repository contains my daily SQL problem-solving exercises
 
 ## 📅 Progress Tracker
 
