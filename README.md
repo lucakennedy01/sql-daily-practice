@@ -4,7 +4,7 @@ This repository contains my daily SQL problem-solving exercises
 
 ## 📅 Progress Tracker
 
-**Problems solved:** `4`
+**Problems solved:** `5`
 
 | Date       | Problem Description | Solution |
 |------------|---------------------|----------|
@@ -12,3 +12,4 @@ This repository contains my daily SQL problem-solving exercises
 | 2025-07-22 | [Salaries Difference](https://platform.stratascratch.com/coding/10308-salaries-differences?code_type=1) | [SQL](./2025-07-22/solution.sql) |
 | 2025-07-23 | [Finding Updated Records](https://platform.stratascratch.com/coding/10299-finding-updated-records?code_type=1) | [SQL](./2025-07-23/solution.sql) |
 | 2025-07-24 | [Order Details](https://platform.stratascratch.com/coding/9913-order-details?code_type=1) | [SQL](./2025-07-24/solution.sql) |
+| 2025-07-25 | [Popularity of Hack](https://platform.stratascratch.com/coding/10061-popularity-of-hack?code_type=1) | [SQL](./2025-07-25/solution.sql) |
