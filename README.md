@@ -15,4 +15,4 @@ This repository contains my daily SQL problem-solving exercises
 | 2025-07-25 | [Popularity of Hack](https://platform.stratascratch.com/coding/10061-popularity-of-hack?code_type=1) | [SQL](./2025-07-25/solution.sql) |
 | 2025-07-26 | [Average Salaries](https://platform.stratascratch.com/coding/9917-average-salaries?code_type=1) | [SQL](./2025-07-26/solution.sql) |
 | 2025-07-27 | [Artist Appearance Count](https://platform.stratascratch.com/coding/9992-find-artists-that-have-been-on-spotify-the-most-number-of-times?code_type=1) | [SQL](./2025-07-27/solution.sql) |
-
+| 2025-07-28 | [Customer Details](https://platform.stratascratch.com/coding/9891-customer-details?code_type=1) | [SQL](./2025-07-28/solution.sql) |
