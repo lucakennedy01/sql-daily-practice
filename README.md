@@ -4,7 +4,7 @@ This repository contains my daily SQL problem-solving exercises
 
 ## 📅 Progress Tracker
 
-**Problems solved:** `10`
+**Problems solved:** `11`
 
 | Date       | Problem Description | Difficulty | Solution |
 |------------|---------------------|------------|----------|
@@ -19,3 +19,4 @@ This repository contains my daily SQL problem-solving exercises
 | 2025-07-29 | [Bikes Last Used](https://platform.stratascratch.com/coding/10176-bikes-last-used?code_type=1)| Easy  | [SQL](./2025-07-29/solution.sql) |
 | 2025-07-30 | [Top Cool Votes](https://platform.stratascratch.com/coding/10060-top-cool-votes?code_type=1)| Medium | [SQL](./2025-07-30/solution.sql) |
 | 2025-08-01 | [Share of Active Users](https://platform.stratascratch.com/coding/2005-share-of-active-users?code_type=1) | Medium | [SQL](./2025-08-01/solution.sql) |
+| 2025-08-02 | [Premium Account](https://platform.stratascratch.com/coding/2097-premium-acounts?code_type=1) | Medium | |[SQL](./2025-08-02/solution.sql) |
