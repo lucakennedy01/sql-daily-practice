@@ -1,42 +1,62 @@
 /*
 
-Flags per Video
-https://platform.stratascratch.com/coding/2102-flags-per-video?code_type=1
-ID 2102
+User With Most Approved Flags
+https://platform.stratascratch.com/coding/2104-user-with-most-approved-flags?code_type=1
+ID 2104
 
 Difficulty: Medium
 
-For each video, find how many unique users flagged it. 
-A unique user can be identified using the combination of their first name and last name. 
-Do not consider rows in which there is no flag ID.
+Which user flagged the most distinct videos that ended up approved by YouTube? 
+Output, in one column, their full name or names in case of a tie. 
+In the user's full name, include a space between the first and the last name.
 
 Tables:
+
 <user_flags>
 flag_id:text
-user_firstname:text
-user_lastname:text
+user_firstname:tex
+tuser_lastname:text
 video_id:text
+
+<flag_review>
+flag_id:text
+reviewed_by_yt:boolean
+reviewed_date:date
+reviewed_outcome:text
 
 */
 
 /*
-Working logic:
-We can find unique user identifiers by using CONCAT() with first and last names.
-By storing these in a CTE, we can easily group them by video_id, and count the unique occurences
+Working Logic:
+Create first CTE to group by fullname, using CONCAT()
+Join flag_review onto user_flags on flag_id and where outcome = 'approved'
+Count unique video ids per fullname
+
+Create second CTE
+Rank by approved number of vids from first CTE
+Use DENSE_RANK() as we want to account for same number of outcomes across multiple users
+We now have a CTE with all unique fullnames and a ranking of unique videos that were approved in descending order
+
+Finally, select just the fullname(s) from 2nd CTE where rank = 1
 */
 
 -- Attempt:
--- create cte with user_id for each video_id
-WITH unique_user AS (
+WITH approved_vids AS (
     SELECT
-        video_id,
-        CONCAT(user_firstname, user_lastname) AS user_id
-    FROM user_flags
-    WHERE flag_id IS NOT NULL)
+        CONCAT(u.user_firstname,' ', u.user_lastname) AS fullname,
+        COUNT(DISTINCT u.video_id) AS approved_count --count distinct videos after filtering by APPROVED
+    FROM user_flags u
+    JOIN flag_review f ON u.flag_id = f.flag_id AND reviewed_outcome = 'APPROVED'
+    GROUP BY fullname),
+    
+    ranked_vids AS (
+    SELECT
+        fullname,
+        DENSE_RANK() OVER (ORDER BY approved_count DESC) AS rank
+    FROM approved_vids)
 
-SELECT 
-    video_id,
-    COUNT(DISTINCT user_id)
-FROM unique_user
-GROUP BY video_id;
--- Result: Passed
+SELECT
+    fullname
+FROM ranked_vids
+WHERE rank = 1;
+-- Result: passed

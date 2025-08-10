@@ -4,7 +4,7 @@ This repository contains my daily SQL problem-solving exercises
 
 ## 📅 Progress Tracker
 
-**Problems solved:** `11`
+**Problems solved:** `13`
 
 | Date       | Problem Description | Difficulty | Solution |
 |------------|---------------------|------------|----------|
@@ -20,3 +20,5 @@ This repository contains my daily SQL problem-solving exercises
 | 2025-07-30 | [Top Cool Votes](https://platform.stratascratch.com/coding/10060-top-cool-votes?code_type=1)| Medium | [SQL](./2025-07-30/solution.sql) |
 | 2025-08-01 | [Share of Active Users](https://platform.stratascratch.com/coding/2005-share-of-active-users?code_type=1) | Medium | [SQL](./2025-08-01/solution.sql) |
 | 2025-08-02 | [Premium Account](https://platform.stratascratch.com/coding/2097-premium-acounts?code_type=1) | Medium | [SQL](./2025-08-02/solution.sql) |
+| 2025-08-03 | [Flags Per Video](https://platform.stratascratch.com/coding/2102-flags-per-video?code_type=1) | Medium | [SQL](./2025-08-04/solution.sql) |
+| 2025-08-04|| [User with Most Approved Flags](https://platform.stratascratch.com/coding/2104-user-with-most-approved-flags?code_type=1) | Medium | [SQL](./2025-08-05/solution.sql) |
