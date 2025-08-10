@@ -21,4 +21,4 @@ This repository contains my daily SQL problem-solving exercises
 | 2025-08-01 | [Share of Active Users](https://platform.stratascratch.com/coding/2005-share-of-active-users?code_type=1) | Medium | [SQL](./2025-08-01/solution.sql) |
 | 2025-08-02 | [Premium Account](https://platform.stratascratch.com/coding/2097-premium-acounts?code_type=1) | Medium | [SQL](./2025-08-02/solution.sql) |
 | 2025-08-03 | [Flags Per Video](https://platform.stratascratch.com/coding/2102-flags-per-video?code_type=1) | Medium | [SQL](./2025-08-04/solution.sql) |
-| 2025-08-04|| [User with Most Approved Flags](https://platform.stratascratch.com/coding/2104-user-with-most-approved-flags?code_type=1) | Medium | [SQL](./2025-08-05/solution.sql) |
+| 2025-08-04 | [User with Most Approved Flags](https://platform.stratascratch.com/coding/2104-user-with-most-approved-flags?code_type=1) | Medium | [SQL](./2025-08-05/solution.sql) |
