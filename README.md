@@ -4,7 +4,7 @@ This repository contains my daily SQL problem-solving exercises
 
 ## 📅 Progress Tracker
 
-**Problems solved:** `14`
+**Problems solved:** `16`
 
 | Date       | Problem Description | Difficulty | Solution |
 |------------|---------------------|------------|----------|
