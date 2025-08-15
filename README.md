@@ -24,3 +24,4 @@ This repository contains my daily SQL problem-solving exercises
 | 2025-08-04 | [User with Most Approved Flags](https://platform.stratascratch.com/coding/2104-user-with-most-approved-flags?code_type=1) | Medium | [SQL](./2025-08-05/solution.sql) |
 | 2025-08-05 | [Find Students At Median Writing](https://platform.stratascratch.com/coding/9610-find-students-with-a-median-writing-score?code_type=1) | Medium | [SQL](./2025-08-05/solution.sql) |
 | 2025-08-06 | [Host Popularity Rental Prices](https://platform.stratascratch.com/coding/9632-host-popularity-rental-prices?code_type=1) | Medium | [SQL](./2025-08-06/solution.sql) |
+| 2025-08-07 | [Top 10 Songs 2010](https://platform.stratascratch.com/coding/9650-find-the-top-10-ranked-songs-in-2010?code_type=1) | Medium | [SQL](./2025-08-07/solution.sql) |
