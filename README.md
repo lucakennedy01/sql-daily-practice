@@ -23,3 +23,4 @@ This repository contains my daily SQL problem-solving exercises
 | 2025-08-03 | [Flags Per Video](https://platform.stratascratch.com/coding/2102-flags-per-video?code_type=1) | Medium | [SQL](./2025-08-04/solution.sql) |
 | 2025-08-04 | [User with Most Approved Flags](https://platform.stratascratch.com/coding/2104-user-with-most-approved-flags?code_type=1) | Medium | [SQL](./2025-08-05/solution.sql) |
 | 2025-08-05 | [Find Students At Median Writing](https://platform.stratascratch.com/coding/9610-find-students-with-a-median-writing-score?code_type=1) | Medium | [SQL](./2025-08-05/solution.sql) |
+| 2025-08-06 | [Host Popularity Rental Prices](https://platform.stratascratch.com/coding/9632-host-popularity-rental-prices?code_type=1) | Medium | [SQL](./2025-08-06/solution.sql) |
