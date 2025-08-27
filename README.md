@@ -4,7 +4,7 @@ This repository contains my daily SQL problem-solving exercises
 
 ## 📅 Progress Tracker
 
-**Problems solved:** `18`
+**Problems solved:** `19`
 
 | Date       | Problem Description | Difficulty | Solution |
 |------------|---------------------|------------|----------|
@@ -26,3 +26,4 @@ This repository contains my daily SQL problem-solving exercises
 | 2025-08-06 | [Host Popularity Rental Prices](https://platform.stratascratch.com/coding/9632-host-popularity-rental-prices?code_type=1) | Medium | [SQL](./2025-08-06/solution.sql) |
 | 2025-08-07 | [Top 10 Songs 2010](https://platform.stratascratch.com/coding/9650-find-the-top-10-ranked-songs-in-2010?code_type=1) | Medium | [SQL](./2025-08-07/solution.sql) |
 | 2025-08-08 | [Processed Ticket Rate By Type](https://platform.stratascratch.com/coding/9781-find-the-rate-of-processed-tickets-for-each-type?code_type=1) | Medium | [SQL](./2025-08-08/solution.sql) |
+| 2025-08-09| [Customer Revenue in March](https://platform.stratascratch.com/coding/9782-customer-revenue-in-march?code_type=1) | Mediumn | [SQL](./2025-08-09/solution.sql) |
