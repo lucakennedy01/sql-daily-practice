@@ -10,7 +10,7 @@ Output two columns: word and occurrences.
 Tables:
 
 <google_file_store>
-contents:text#
+contents:text
 filename:text
 
 */
